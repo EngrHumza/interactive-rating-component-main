@@ -81,6 +81,11 @@ body{
     color: var(--white);
 }
 
+.row ul li:hover{
+    background-color: var(--orange);
+    cursor: pointer;
+}
+
 .submitButton{
     text-align: center;
 }
@@ -97,5 +102,31 @@ body{
     letter-spacing: 2px;
 }
 
+.submitButton button:hover{
+    background-color: var(--white);
+    color: var(--orange);
+    cursor: pointer;
+}
 
 /* ThankYou Page css */
+
+.alignCenter{
+    text-align: center;
+}
+
+.rating{
+    margin-top: 10px;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: black;
+}
+
+.rating p{
+    color: var(--orange);
+}
+
+/* Desktop Screen */
+
+@media only screen{
+    
+}
