@@ -127,6 +127,13 @@ body{
 
 /* Desktop Screen */
 
-@media only screen{
-    
+@media only screen and (min-width:375px){
+    .hero{
+        width: 100%;
+        padding: 152.5px 24px;
+    }
+
+    .row{
+        margin: auto;
+    }
 }
